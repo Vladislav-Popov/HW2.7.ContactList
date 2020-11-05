@@ -9,8 +9,6 @@ class SecondTableViewController: UITableViewController {
         super.viewDidLoad()
     }
 
-    // MARK: - Table view data source
-
     override func numberOfSections(in tableView: UITableView) -> Int {
         return persons.count
     }
